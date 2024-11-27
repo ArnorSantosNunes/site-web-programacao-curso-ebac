@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    background-color: rgb(238, 238, 238);
+}
+header{
+    padding: 16px 0;
+    background-color: #620672ee;
+    color: white;
+}
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    color: white;
+}
+header nav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* sobre */
+.brands-list img{
+    height: 24px;
+}
+.brands-list li{
+    display: inline;
+}
+section .container{
+    display: flex;
+    align-items: flex-start;
+}
+section{
+    padding: 24px;
+}
+section h2, p {
+    margin-bottom: 16px;
+}
+.store-front{
+    margin-right: 32px;
+}
+section h1,h2{
+    color: #620672ee;
+}
+/* rodape */
+.social-links img{
+    height: 24px;
+}
+.social-links li { 
+    display: inline;
+    margin-right: 8px;
+}
+.social-links li a { 
+    text-decoration: none;
+}
+#contact .container {
+    display: block;
+}
+.contact-methods{
+    display: flex;
+    justify-content: space-between;
+}
+form input, form textarea, form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+form textarea {
+    resize: none;
+}
